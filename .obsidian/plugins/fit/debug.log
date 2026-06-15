@@ -1,0 +1,960 @@
+﻿[2026-06-15T18:03:57.396Z] [Plugin] Starting plugin initialization
+[2026-06-15T18:03:57.399Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 0,
+  "remoteShaCount": 0,
+  "lastCommit": null
+}
+[2026-06-15T18:03:57.400Z] [Plugin] Plugin initialization completed successfully
+[2026-06-15T18:06:45.617Z] [FitSettings] Password has been applied
+[2026-06-15T18:07:53.603Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (a0b6dba)...
+[2026-06-15T18:07:54.016Z] ❌ [RemoteVault] Failed to process file: .gitignore: {
+  "name": "InvalidCharacterError",
+  "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+}
+[2026-06-15T18:07:54.016Z] [FitSettings] Failed to update cache: {
+  "name": "VaultError",
+  "message": "Failed to process 1 file(s) from remote vault: .gitignore",
+  "type": "network",
+  "details": {
+    "originalError": {
+      "name": "InvalidCharacterError",
+      "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+    },
+    "failedPaths": [
+      ".gitignore"
+    ],
+    "errors": [
+      {
+        "path": ".gitignore",
+        "error": {
+          "name": "InvalidCharacterError",
+          "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+        }
+      }
+    ]
+  }
+}
+[2026-06-15T18:10:21.773Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (a0b6dba)...
+[2026-06-15T18:10:22.159Z] ❌ [RemoteVault] Failed to process file: .gitignore: {
+  "name": "InvalidCharacterError",
+  "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+}
+[2026-06-15T18:10:22.160Z] [FitSettings] Failed to update cache: {
+  "name": "VaultError",
+  "message": "Failed to process 1 file(s) from remote vault: .gitignore",
+  "type": "network",
+  "details": {
+    "originalError": {
+      "name": "InvalidCharacterError",
+      "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+    },
+    "failedPaths": [
+      ".gitignore"
+    ],
+    "errors": [
+      {
+        "path": ".gitignore",
+        "error": {
+          "name": "InvalidCharacterError",
+          "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+        }
+      }
+    ]
+  }
+}
+[2026-06-15T18:11:13.459Z] [Plugin] Auto sync requested
+[2026-06-15T18:11:13.462Z] 🚀 [SYNC START] Auto sync requested
+[2026-06-15T18:11:13.462Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-06-15T18:11:13.462Z] .. 💾 [LocalVault] Scanning files...
+[2026-06-15T18:11:13.463Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-06-15T18:11:13.467Z] ... 💾 [LocalVault] Scanned 1 files
+[2026-06-15T18:11:13.958Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (a0b6dba)...
+[2026-06-15T18:11:14.359Z] ❌ [RemoteVault] Failed to process file: .gitignore: {
+  "name": "InvalidCharacterError",
+  "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+}
+[2026-06-15T18:11:14.359Z] [Plugin] Sync failed: {
+  "type": "network",
+  "message": "Failed to process 1 file(s) from remote vault: .gitignore. Please check your internet connection.\n\nFailed files:\n  • .gitignore: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.\n\n💡 To sync other files: Move problematic file(s) out of your vault temporarily, or use git to sync them manually. .gitignore support coming soon.",
+  "details": {
+    "originalError": {
+      "name": "InvalidCharacterError",
+      "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+    },
+    "failedPaths": [
+      ".gitignore"
+    ],
+    "errors": [
+      {
+        "path": ".gitignore",
+        "error": {
+          "name": "InvalidCharacterError",
+          "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+        }
+      }
+    ]
+  }
+}
+[2026-06-15T18:12:13.458Z] [Plugin] Auto sync requested
+[2026-06-15T18:12:13.459Z] 🚀 [SYNC START] Auto sync requested
+[2026-06-15T18:12:13.459Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-06-15T18:12:13.459Z] .. 💾 [LocalVault] Scanning files...
+[2026-06-15T18:12:13.459Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-06-15T18:12:13.460Z] ... 💾 [LocalVault] Scanned 1 files
+[2026-06-15T18:12:13.903Z] ... ⬇️ [RemoteVault] Fetching initial state from GitHub (a0b6dba)...
+[2026-06-15T18:12:14.297Z] ❌ [RemoteVault] Failed to process file: .gitignore: {
+  "name": "InvalidCharacterError",
+  "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+}
+[2026-06-15T18:12:14.297Z] [Plugin] Sync failed: {
+  "type": "network",
+  "message": "Failed to process 1 file(s) from remote vault: .gitignore. Please check your internet connection.\n\nFailed files:\n  • .gitignore: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.\n\n💡 To sync other files: Move problematic file(s) out of your vault temporarily, or use git to sync them manually. .gitignore support coming soon.",
+  "details": {
+    "originalError": {
+      "name": "InvalidCharacterError",
+      "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+    },
+    "failedPaths": [
+      ".gitignore"
+    ],
+    "errors": [
+      {
+        "path": ".gitignore",
+        "error": {
+          "name": "InvalidCharacterError",
+          "message": "Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded."
+        }
+      }
+    ]
+  }
+}
+[2026-06-15T18:13:13.458Z] [Plugin] Auto sync requested
+[2026-06-15T18:13:13.458Z] 🚀 [SYNC START] Auto sync requested
+[2026-06-15T18:13:13.458Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-06-15T18:13:13.458Z] .. 💾 [LocalVault] Scanning files...
+[2026-06-15T18:13:13.458Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-06-15T18:13:13.459Z] ... 💾 [LocalVault] Scanned 1 files
+[2026-06-15T18:13:14.231Z] [Plugin] Sync failed: {
+  "type": "remote_not_found",
+  "message": "Repository 'Yeru0/obsidian' not found. Check your repo and branch settings.",
+  "details": {
+    "originalError": {
+      "name": "HttpError",
+      "message": "Not Found - https://docs.github.com/rest/commits/commits#get-a-commit",
+      "status": 404,
+      "request": {
+        "method": "GET",
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "headers": {
+          "accept": "application/vnd.github.v3+json",
+          "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+          "if-none-match": "",
+          "x-github-api-version": "2022-11-28",
+          "authorization": "token [REDACTED]"
+        },
+        "request": {}
+      },
+      "response": {
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "status": 404,
+        "headers": {
+          "content-type": "application/json; charset=utf-8",
+          "x-github-media-type": "github.v3; format=json",
+          "x-github-request-id": "E081:392FEB:263D169:247D75C:6A3040B9",
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4986",
+          "x-ratelimit-reset": "1781550358",
+          "x-ratelimit-resource": "core",
+          "x-ratelimit-used": "14"
+        },
+        "data": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/commits/commits#get-a-commit",
+          "status": "404"
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:13:32.225Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "E081:392FEB:26480C2:2487E2B:6A3040CC",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4973",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "27"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:13:32.665Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "E081:392FEB:26484B1:248822B:6A3040CC",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4971",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "29"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:13:32.898Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "E081:392FEB:26486F0:248842C:6A3040CC",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4970",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "30"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:13:33.152Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "E081:392FEB:2648964:248866E:6A3040CC",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4969",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "31"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:14:26.385Z] [Plugin] Auto sync requested
+[2026-06-15T18:14:26.386Z] 🚀 [SYNC START] Auto sync requested
+[2026-06-15T18:14:26.386Z] 🔄 [Sync] Checking local and remote changes (parallel)...
+[2026-06-15T18:14:26.386Z] .. 💾 [LocalVault] Scanning files...
+[2026-06-15T18:14:26.386Z] .. ☁️ [RemoteVault] Fetching from GitHub...
+[2026-06-15T18:14:26.387Z] ... 💾 [LocalVault] Scanned 1 files
+[2026-06-15T18:14:27.241Z] [Plugin] Sync failed: {
+  "type": "remote_not_found",
+  "message": "Repository 'Yeru0/obsidian' not found. Check your repo and branch settings.",
+  "details": {
+    "originalError": {
+      "name": "HttpError",
+      "message": "Not Found - https://docs.github.com/rest/commits/commits#get-a-commit",
+      "status": 404,
+      "request": {
+        "method": "GET",
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "headers": {
+          "accept": "application/vnd.github.v3+json",
+          "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+          "if-none-match": "",
+          "x-github-api-version": "2022-11-28",
+          "authorization": "token [REDACTED]"
+        },
+        "request": {}
+      },
+      "response": {
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "status": 404,
+        "headers": {
+          "content-type": "application/json; charset=utf-8",
+          "x-github-media-type": "github.v3; format=json",
+          "x-github-request-id": "D563:3B6BEA:252B40C:23750CF:6A304102",
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4968",
+          "x-ratelimit-reset": "1781550358",
+          "x-ratelimit-resource": "core",
+          "x-ratelimit-used": "32"
+        },
+        "data": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/commits/commits#get-a-commit",
+          "status": "404"
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:14:36.787Z] [Plugin] Starting plugin initialization
+[2026-06-15T18:14:36.788Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 0,
+  "remoteShaCount": 0,
+  "lastCommit": null
+}
+[2026-06-15T18:14:36.789Z] [Plugin] Plugin initialization completed successfully
+[2026-06-15T18:14:59.960Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "D563:3B6BEA:253C2E6:23850F9:6A304123",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4964",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "36"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:15:10.469Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "D563:3B6BEA:2541FF0:238A95E:6A30412E",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4960",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "40"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:15:17.458Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "D563:3B6BEA:2545E1A:238E4A3:6A304135",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4956",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "44"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:15:31.508Z] [FitSettings] Failed to update cache: {
+  "name": "VaultError",
+  "message": "Repository 'Yeru0/obsidian' not found",
+  "type": "remote_not_found",
+  "details": {
+    "originalError": {
+      "name": "HttpError",
+      "message": "Not Found - https://docs.github.com/rest/commits/commits#get-a-commit",
+      "status": 404,
+      "request": {
+        "method": "GET",
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "headers": {
+          "accept": "application/vnd.github.v3+json",
+          "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+          "if-none-match": "",
+          "x-github-api-version": "2022-11-28",
+          "authorization": "token [REDACTED]"
+        },
+        "request": {}
+      },
+      "response": {
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "status": 404,
+        "headers": {
+          "content-type": "application/json; charset=utf-8",
+          "x-github-media-type": "github.v3; format=json",
+          "x-github-request-id": "D563:3B6BEA:254CF85:2395037:6A304142",
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4955",
+          "x-ratelimit-reset": "1781550358",
+          "x-ratelimit-resource": "core",
+          "x-ratelimit-used": "45"
+        },
+        "data": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/commits/commits#get-a-commit",
+          "status": "404"
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:15:46.352Z] [FitSettings] Failed to clear repository: {
+  "name": "VaultError",
+  "message": "Repository 'Yeru0/obsidian' not found",
+  "type": "remote_not_found",
+  "details": {
+    "originalError": {
+      "name": "HttpError",
+      "message": "Not Found - https://docs.github.com/rest/commits/commits#get-a-commit",
+      "status": 404,
+      "request": {
+        "method": "GET",
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "headers": {
+          "accept": "application/vnd.github.v3+json",
+          "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+          "if-none-match": "",
+          "x-github-api-version": "2022-11-28",
+          "authorization": "token [REDACTED]"
+        },
+        "request": {
+          "retryCount": 1
+        }
+      },
+      "response": {
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "status": 404,
+        "headers": {
+          "content-type": "application/json; charset=utf-8",
+          "x-github-media-type": "github.v3; format=json",
+          "x-github-request-id": "D563:3B6BEA:2554B07:239C51A:6A304152",
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4954",
+          "x-ratelimit-reset": "1781550358",
+          "x-ratelimit-resource": "core",
+          "x-ratelimit-used": "46"
+        },
+        "data": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/commits/commits#get-a-commit",
+          "status": "404"
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:16:05.668Z] [Plugin] Starting plugin initialization
+[2026-06-15T18:16:05.669Z] .. 📦 [Cache] Loaded SHA caches from storage: {
+  "source": "plugin data.json",
+  "localShaCount": 0,
+  "remoteShaCount": 0,
+  "lastCommit": null
+}
+[2026-06-15T18:16:05.670Z] [Plugin] Plugin initialization completed successfully
+[2026-06-15T18:17:21.017Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "CEA6:19FA30:25A7485:23F0B77:6A3041B0",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4946",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "54"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:17:34.112Z] [FitSettings] Password has been applied
+[2026-06-15T18:17:36.856Z] [FitSettings] Failed to update cache: {
+  "name": "VaultError",
+  "message": "Repository 'Yeru0/obsidian' not found",
+  "type": "remote_not_found",
+  "details": {
+    "originalError": {
+      "name": "HttpError",
+      "message": "Not Found - https://docs.github.com/rest/commits/commits#get-a-commit",
+      "status": 404,
+      "request": {
+        "method": "GET",
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "headers": {
+          "accept": "application/vnd.github.v3+json",
+          "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+          "if-none-match": "",
+          "x-github-api-version": "2022-11-28",
+          "authorization": "token [REDACTED]"
+        },
+        "request": {}
+      },
+      "response": {
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "status": 404,
+        "headers": {
+          "content-type": "application/json; charset=utf-8",
+          "x-github-media-type": "github.v3; format=json",
+          "x-github-request-id": "CEA6:19FA30:25AF088:23F819E:6A3041C0",
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4945",
+          "x-ratelimit-reset": "1781550358",
+          "x-ratelimit-resource": "core",
+          "x-ratelimit-used": "55"
+        },
+        "data": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/commits/commits#get-a-commit",
+          "status": "404"
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:17:38.450Z] [FitSettings] Failed to clear repository: {
+  "name": "VaultError",
+  "message": "Repository 'Yeru0/obsidian' not found",
+  "type": "remote_not_found",
+  "details": {
+    "originalError": {
+      "name": "HttpError",
+      "message": "Not Found - https://docs.github.com/rest/commits/commits#get-a-commit",
+      "status": 404,
+      "request": {
+        "method": "GET",
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "headers": {
+          "accept": "application/vnd.github.v3+json",
+          "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+          "if-none-match": "",
+          "x-github-api-version": "2022-11-28",
+          "authorization": "token [REDACTED]"
+        },
+        "request": {
+          "retryCount": 1
+        }
+      },
+      "response": {
+        "url": "https://api.github.com/repos/Yeru0/obsidian/commits/main",
+        "status": 404,
+        "headers": {
+          "content-type": "application/json; charset=utf-8",
+          "x-github-media-type": "github.v3; format=json",
+          "x-github-request-id": "CEA6:19FA30:25AFFE0:23F8FE2:6A3041C2",
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4944",
+          "x-ratelimit-reset": "1781550358",
+          "x-ratelimit-resource": "core",
+          "x-ratelimit-used": "56"
+        },
+        "data": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/commits/commits#get-a-commit",
+          "status": "404"
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:18:06.965Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "CEA6:19FA30:25BE2B8:2406720:6A3041DE",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4940",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "60"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
+[2026-06-15T18:18:17.465Z] [FitSettings] Could not fetch branches for Yeru0/obsidian: Repository 'Yeru0/obsidian' not found or inaccessible: {
+  "error": {
+    "name": "VaultError",
+    "message": "Repository 'Yeru0/obsidian' not found or inaccessible",
+    "type": "network",
+    "details": {
+      "originalError": {
+        "name": "HttpError",
+        "message": "Not Found - https://docs.github.com/rest/branches/branches#list-branches",
+        "status": 404,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "headers": {
+            "accept": "application/vnd.github.v3+json",
+            "user-agent": "octokit-core.js/7.0.6 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.11.5 Chrome/142.0.7444.226 Electron/39.2.6 Safari/537.36",
+            "x-github-api-version": "2022-11-28",
+            "authorization": "token [REDACTED]"
+          },
+          "request": {
+            "retries": 3,
+            "doNotRetry": [
+              400,
+              401,
+              403,
+              404,
+              422
+            ],
+            "retryCount": 3
+          }
+        },
+        "response": {
+          "url": "https://api.github.com/repos/Yeru0/obsidian/branches?per_page=100&page=1",
+          "status": 404,
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "CEA6:19FA30:25C3BB0:240BC9A:6A3041E8",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4936",
+            "x-ratelimit-reset": "1781550358",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "64"
+          },
+          "data": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest/branches/branches#list-branches",
+            "status": "404"
+          }
+        }
+      }
+    }
+  }
+}
